@@ -1,11 +1,10 @@
 import { useState } from "react";
-import "./index.css"
+import "./index.css";
 
 function App() {
   return (
     <div className="App">
-      <div className="wrapper">
-        <div className="card p-5 rounded-lg m-auto items-center">
+        <div className="card p-5 rounded-lg">
           <div className="code">
             <img
               src="/images/image-qr-code.png"
@@ -24,7 +23,6 @@ function App() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
 
